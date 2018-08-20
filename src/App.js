@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <span class="navbar-brand fw-bold">
+              <img
+                src="src/assets/favicon.svg"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              Random Quote Machine
+            </span>
+          </div>
+        </nav>
       </header>
-    </div>
+
+      <footer class="text-white text-center mt-2">
+        By{" "}
+        <a
+          class="text-white text-decoration-none fw-bold"
+          href="https://github.com/harrmitch"
+        >
+          harrmitch
+        </a>
+      </footer>
+    </>
   );
-}
+};
 
 export default App;
