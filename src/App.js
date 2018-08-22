@@ -5,15 +5,15 @@ const App = () => {
   return (
     <>
       <header>
-        <nav class="navbar bg-light">
-          <div class="container-fluid">
-            <span class="navbar-brand fw-bold">
+        <nav className="navbar bg-light">
+          <div className="container-fluid">
+            <span className="navbar-brand fw-bold">
               <img
                 src="src/assets/favicon.svg"
                 alt="Logo"
                 width="30"
                 height="24"
-                class="d-inline-block align-text-top"
+                className="d-inline-block align-text-top"
               />
               Random Quote Machine
             </span>
@@ -21,10 +21,10 @@ const App = () => {
         </nav>
       </header>
 
-      <footer class="text-white text-center mt-2">
+      <footer className="text-white text-center mt-2">
         By{" "}
         <a
-          class="text-white text-decoration-none fw-bold"
+          className="text-white text-decoration-none fw-bold"
           href="https://github.com/harrmitch"
         >
           harrmitch
