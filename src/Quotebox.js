@@ -38,11 +38,7 @@ const Quotebox = () => {
   return (
     <>
       {currentQuote && (
-        <div
-          transition:fade
-          className="container bg-white p-5 mt-5 rounded-2"
-          id="quote-box"
-        >
+        <div className="container bg-white p-5 mt-5 rounded-2" id="quote-box">
           <section>
             <figure>
               <blockquote className="text-center">
@@ -76,7 +72,7 @@ const Quotebox = () => {
                 style={{ backgroundColor: color }}
                 className="btn text-white float-end"
                 id="new-quote"
-                on:click={getNewQuote}
+                onClick={getNewQuote}
               >
                 New quote
               </a>
@@ -88,6 +84,7 @@ const Quotebox = () => {
   );
 };
 
+export default Quotebox;
 /* :global(body) {
     background-color: var(--color);
   } */

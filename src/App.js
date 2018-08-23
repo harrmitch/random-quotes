@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Quotebox from "./Quotebox";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           </div>
         </nav>
       </header>
+
+      <Quotebox />
 
       <footer className="text-white text-center mt-2">
         By{" "}
