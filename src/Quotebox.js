@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import randomColor from "randomcolor";
+import "./Quotebox.module.css";
 
 const Quotebox = () => {
   const [currentQuote, setCurrentQuote] = useState(null);
@@ -85,6 +86,3 @@ const Quotebox = () => {
 };
 
 export default Quotebox;
-/* :global(body) {
-    background-color: var(--color);
-  } */
