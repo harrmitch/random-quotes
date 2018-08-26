@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import Quotebox from "./Quotebox";
 
 const App = () => {
@@ -10,7 +8,7 @@ const App = () => {
           <div className="container-fluid">
             <span className="navbar-brand fw-bold">
               <img
-                src="src/assets/favicon.svg"
+                src="/favicon.svg"
                 alt="Logo"
                 width="30"
                 height="24"
