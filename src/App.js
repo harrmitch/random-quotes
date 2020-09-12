@@ -8,7 +8,7 @@ const App = () => {
           <div className="container-fluid">
             <span className="navbar-brand fw-bold">
               <img
-                src="/favicon.svg"
+                src="./favicon.svg"
                 alt="Logo"
                 width="30"
                 height="24"
